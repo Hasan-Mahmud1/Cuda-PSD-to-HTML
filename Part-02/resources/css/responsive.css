@@ -1,0 +1,92 @@
+
+@media only screen and (max-width: 1200px) {
+    header {
+    height: 110vh;
+   
+    }
+    header .hero-text-box {
+     padding-top: 40px;
+     width: 100%;
+  
+    } 
+}
+@media only screen and (max-width: 1024px){
+.row {
+margin: 0px 20px;
+}
+header .hero-text-box {
+    width: 90%; 
+
+   }
+}
+@media only screen and (max-width: 768px){
+
+  header {
+      height: 150vh;
+
+  }
+
+header .hero-text-box {
+    width: 90%;
+
+  }
+  img {
+  max-width: 100%;
+  }
+  h1 {
+      font-size: 35px;
+      line-height: 45px;
+      font-weight: 600;
+      
+  }
+  .logo {
+      height: 30px;
+  }
+  .main-nav {
+      float: right;
+      margin-top: 40px;
+  }
+
+  .main-nav li {
+      display: inline-block;
+      margin-left: 10px;
+  }
+  section {
+      padding: 3% 0%;
+
+  }
+  
+  .service-section h2::after {
+       top: 150px;
+       transform: translateX(-260px);
+       -webkit-transform: translateX(-260px);
+       -moz-transform: translateX(-260px);
+       -ms-transform: translateX(-260px);
+       -o-transform: translateX(-260px);
+}
+
+.team-section h2::after {
+    top: 150px;
+}
+
+.skill-section h2::after {
+   
+    top: 150px;
+    
+}
+
+.portfolio-section h2::after {
+    
+    top: 150px;
+    
+}
+
+.testimonial h2::after {
+    
+    top: 150px;
+   
+}
+
+
+}
+
